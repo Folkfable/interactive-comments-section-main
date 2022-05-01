@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive comments section</title>
+  <link href="style.css" rel="stylesheet">
+  </link>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+  <!-- Pull dynamic content from the data.json file -->
+
+
+  <div class="Application__container">
+
+    <div class="chat__container">
+
+      <div class="chat__board">
+
+        <div class="counter">
+          <i class="fa fa-plus counter__icon"></i>
+          <p>12</p>
+          <i class="fa fa-minus counter__icon"></i>
+        </div>
+
+        <div class="chat-board__body">
+          <div class="chat-board__head">
+            <div class="chat-boardHead__user">
+              <div class="imgholder">
+                <img src="images\avatars\image-amyrobson.png" />
+              </div>
+    
+    
+              <div class="contentholdername">
+                <p> amyrobson</p>
+              </div>
+    
+              <div class="timeposted">
+                <p>1 month ago</p>
+              </div>
+              
+            </div>
+            <div class="reply"> <i class="fas fa-reply fa-rotate-0" style="color:#0f4769">
+                <!-- icon -->
+              </i></i> Reply </div>
+  
+          </div>
+          <div class="chat-board__content">
+              <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione corrupti atque soluta nulla expedita, ea aliquam reprehenderit esse obcaecati magnam, quas fugit repudiandae omnis quod eligendi maxime. Ratione, explicabo asperiores.  
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.   
+              </p>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="chat__board">
+
+        <div class="counter">
+          <i class="fas fa-plus counter__icon"></i>
+          <p>12</p>
+          <i class="fas fa-minus counter__icon"></i>
+        </div>
+        <div class="chat-board__body">
+          <div class="chat-board__head">
+            <div class="chat-boardHead__user">
+              <div class="imgholder">
+                <img src="images\avatars\image-maxblagun.png" />
+              </div>
+    
+    
+              <div class="contentholdername">
+                <p> maxblagun</p>
+              </div>
+    
+              <div class="timeposted">
+                <p>2 weeks ago</p>
+              </div>
+              
+            </div>
+            <div class="reply"> <i class="fas fa-reply fa-rotate-0" style="color:#0f4769">
+                <!-- icon -->
+              </i></i> Reply </div>
+  
+          </div>
+          <div class="chat-board__content">
+              <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione corrupti atque soluta nulla expedita, ea aliquam reprehenderit esse obcaecati magnam, quas fugit repudiandae omnis quod eligendi maxime. Ratione, explicabo asperiores.  
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.   
+              </p>
+          </div>
+
+        </div>
+
+        
+      </div>
+
+      <div class="chat-board__children">
+        <div class="chat__board">
+
+          <div class="counter">
+            <i class="fa fa-plus counter__icon"></i>
+            <p>12</p>
+            <i class="fa fa-minus counter__icon"></i>
+          </div>
+  
+          <div class="chat-board__body">
+            <div class="chat-board__head">
+              <div class="chat-boardHead__user">
+                <div class="imgholder">
+                  <img src="images\avatars\image-ramsesmiron.png" />
+                </div>
+      
+      
+                <div class="contentholdername">
+                  <p> ramsesmiron</p>
+                </div>
+      
+                <div class="timeposted">
+                  <p>1 month ago</p>
+                </div>
+                
+              </div>
+              <div class="reply"> <i class="fas fa-reply fa-rotate-0" style="color:#0f4769">
+                  <!-- icon -->
+                </i></i> Reply </div>
+    
+            </div>
+            <div class="chat-board__content">
+                <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione corrupti atque soluta nulla expedita, ea aliquam reprehenderit esse obcaecati magnam, quas fugit repudiandae omnis quod eligendi maxime. Ratione, explicabo asperiores.  
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.   
+                </p>
+            </div>
+  
+          </div>
+  
+        </div>
+
+        <div class="chat__board">
+
+          <div class="counter">
+            <i class="fa fa-plus counter__icon"></i>
+            <p>12</p>
+            <i class="fa fa-minus counter__icon"></i>
+          </div>
+  
+          <div class="chat-board__body">
+            <div class="chat-board__head">
+              <div class="chat-boardHead__user">
+                <div class="imgholder">
+                  <img src="images\avatars\image-juliusomo.png" />
+                </div>
+      
+      
+                <div class="contentholdername">
+                  <p> juliusomo</p>
+                </div>
+
+                <div class="you">
+                  <p> <span style="color:white;font-weight:bold" > you </span> </p>
+                </div>
+   
+                <div class="timeposted">
+                  <p>1 month ago</p>
+                </div>
+                
+              </div>
+              <div class="delete"> <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1.167 12.448c0 .854.7 1.552 1.555 1.552h6.222c.856 0 1.556-.698 1.556-1.552V3.5H1.167v8.948Zm10.5-11.281H8.75L7.773 0h-3.88l-.976 1.167H0v1.166h11.667V1.167Z" fill="#ED6368"/></svg>
+                  <!-- icon -->
+                </i></i> Delete </div>
+                
+                <div class="edit"> <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M13.479 2.872 11.08.474a1.75 1.75 0 0 0-2.327-.06L.879 8.287a1.75 1.75 0 0 0-.5 1.06l-.375 3.648a.875.875 0 0 0 .875.954h.078l3.65-.333c.399-.04.773-.216 1.058-.499l7.875-7.875a1.68 1.68 0 0 0-.061-2.371Zm-2.975 2.923L8.159 3.449 9.865 1.7l2.389 2.39-1.75 1.706Z" fill="#5357B6"/></svg>
+                  <!-- icon -->
+                </i></i> Edit </div>
+
+            </div>
+            <div class="chat-board__content">
+                <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione corrupti atque soluta nulla expedita, ea aliquam reprehenderit esse obcaecati magnam, quas fugit repudiandae omnis quod eligendi maxime. Ratione, explicabo asperiores.  
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.   
+                </p>
+            </div>
+  
+          </div>
+  
+        </div>
+
+      </div>
+
+      <div class="commentbox">
+        <div class="imgholder1 display">
+          <img src="images\avatars\image-juliusomo.png" />
+        </div>
+        <div class="contentholderbox display">
+          <input type="text" placeholder="Add a comment">
+        </div>
+        <button>Send</button>
+      </div>
+    </div>
+
+    
+  </div>
+    
+  
+    
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+</body>
+
+</html>
